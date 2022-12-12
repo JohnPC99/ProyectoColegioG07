@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title> Estudiante</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-14" style="background-color:rgb(208, 240, 240)">
+                <h1>Observador del Estudiante</h1>
+            </div>
+        </div>
+    </div>
+
+</html>
+Clave:<input type="text" name="clave">
+Contraseña:<input type="password" name="password">
+<div class="col order-3" style="background-color:rgb(208, 240, 240)">
+    <h1> Seguimiento</h1>
+    <h1> Datos del estudiante</h1>
+    <p> Despues de introducir sus datos oprima el boton "ok"
+    </p>
+    <form action="paginaDestino.jsp">
+        <p>
+            Director de Grupo: <span class="border border-3"></span><input type="text" name="Director de Grupo">
+            Curso: <span class="border border-3"></span><input type="text" name="curso"> <br>
+            Nombre:<span class="border border-3"></span> <input type="text" name="Nombre"> <br>
+            Apellidos:<span class="border border-3"></span> <input type="text" name="apellidos"> <br>
+            Telefono: <span class="border border-3"></span><input type="text" name="tel">
+            <input type="reset" value="Borrar">
+            Fecha del Evento: <span class="border border-3"></span><input type="text" name="Fecha del Evento">
+        </p>
+        <input type="submit" value="Ok">
+    </form>
+    <h1> Tipo de Anotación <br> y Casillas de Verificación </h1>
+    <p> Elige el tipo de falta </p>
+    <input type="checkbox" name="Violencia Física" value="Violencia Física">Violencia Física<br>
+    <input type="checkbox" name="Violencia Sexual" value="Violencia Sexual">Violencia Sexual<br>
+    <input type="checkbox" name="Violencia verbal" value="Violencia Verbal">Violencia Verbal <br>
+    <input type="checkbox" name="Violencia Psicológica" value="Violencia Psicológica">Violencia Psicológica<br>
+    <h1> Descripción del Evento</h1>
+    <p> Digite aqui lo sucedido en detalle </p>
+    <textarea name="area2" rows="4" cols="60"></textarea>
+    <h1> Correctivo Pedagógico</h1>
+    <p> Digite aqui el compromiso del estudiante </p>
+    <textarea name="area2" rows="4" cols="60"></textarea>
+    <h1> Compromiso Acudiente</h1>
+    <p> Digite aqui a que se compromete como Padre con seguimiento de Orientación </p>
+    <textarea name="area2" rows="4" cols="60"></textarea>
+    <input type="submit" value="Aceptar">
+    <input type="submit" value="Enviar">
+    </form>
+    </body>
+
+    </html>
